@@ -1,6 +1,6 @@
 # Netaccess
 This is an python script for approving the netaccess login. 
-The installation steps are specially for macOS and Ubuntu 18.04 (tested).
+The installation steps are specially for macOS and tested.
 
 ## Steps  to install 
 ### Dependencies 
@@ -27,11 +27,11 @@ Installing python on Mac the easiest way is to use Homebrew. But you can also us
 
 `brew install git`
 
-5. Clone the netaccess
+5. Clone the netaccess 
 
 `git clone https://github.com/parthiban-r/netaccess.git`
 
-6. Change the login details at the netaccess.py file (go to cloned directory)
+6. Change the login details at the netaccess.py file (go to cloned directory) 
 
 `un="UserName”`
 
@@ -49,8 +49,8 @@ Now you able to run the command on Terminal independent of location
 
 `netaccss.py`
 
-
 ### Install on Ubuntu
+
 Since the code in python it should work on linux also. I tested in Ubuntu 18.04
 
 1. Install python and pip
@@ -71,20 +71,27 @@ Since the code in python it should work on linux also. I tested in Ubuntu 18.04
 
 `git clone https://github.com/parthiban-r/netaccess.git`
 
-5. Change the login details at the netaccess.py file (go to cloned directory)
+5. Change the python location on top of the file.  From _usr_local_bin_python2 to
+
+`/usr/bin/python2` 
+
+6. Change the login details at the netaccess.py file (go to cloned directory)
 
 `un="UserName”`
 
 `pw="Passwrod"`
 
-6. Change netaccess.py to executable
+7. Change netaccess.py to executable
 
 `sudo chmod +x netaccess.py`
 
-7. Copy the file to _usr_bin
+8. Copy the file to _usr_bin
 
 `sudo cp netaccess.py /usr/bin`
 
 Now you able to run the command on Terminal independent of location
 
 `netaccss.py`
+
+
+#GitHub
