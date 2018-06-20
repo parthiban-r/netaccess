@@ -1,6 +1,6 @@
 # Netaccess
 This is an python script for approving the netaccess login. 
-The installation steps are specially for macOS and tested.
+The installation steps are specially for macOS and Ubuntu 18.04 (tested).
 
 ## Steps  to install 
 ### Dependencies 
