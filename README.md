@@ -30,6 +30,7 @@ Installing python on Mac the easiest way is to use Homebrew. But you can also us
 `sudo cp netaccess.py /usr/local/bin`
 Now you able to run the command on Terminal independent of location
 `netaccss.py`
+
 ### Install on Ubuntu
 Since the code in python it should work on linux also. I tested in Ubuntu 18.04
 1. Install python and pip
