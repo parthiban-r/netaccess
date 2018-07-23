@@ -33,7 +33,7 @@ try:
 
     try:
         response=br.open("https://netaccess.iitm.ac.in/account/login") 
-        print('Login Page Loded')
+        print('Login Page Loaded')
     except:
         print("ERROR: Webpage unavailable - check connection")
         exit(1)
@@ -58,7 +58,7 @@ try:
     if (url1==url2):
         print("ERROR: Wrong Credentials\n Enter LDAP login details in /usr/local/bin/netaccess.py")
         exit(1)
-    print('Login Succesful')
+    print('Login Successful')
     br.visit_response(result)
     print('Approval Page\n Approving for 1 day...')
     br.follow_link(br.find_link(url_regex="approve"))
@@ -66,6 +66,6 @@ try:
     br.form["duration"] = ["2"]
     result=br.submit()
 
-    print("Aproval Succesful")
+    print("Aproval Successful")
 except:
-    print("Aproval Unsuccesful")
+    print("Aproval Unsuccessful")
