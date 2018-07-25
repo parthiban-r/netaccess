@@ -60,7 +60,7 @@ try:
         exit(1)
     print('Login Successful')
     br.visit_response(result)
-    print('Approval Page\n Approving for 1 day...')
+    print('Approval Page\nApproving for 1 day...')
     br.follow_link(br.find_link(url_regex="approve"))
     br.select_form(nr=0)
     br.form["duration"] = ["2"]
