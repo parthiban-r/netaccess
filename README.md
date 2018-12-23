@@ -91,7 +91,7 @@ Since the code in python it should work on linux also. I tested in Ubuntu 18.04
 
 Now you able to run the command on Terminal independent of location
 
-`netaccss.py`
+`netaccess.py`
 
 
 #GitHub
